@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Almennt', 'Bottles', 'Paper', 'Plastic']
+
+roboflow:
+  workspace: computer-vision-zakmg
+  project: trash-5bgfl-sac35
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-zakmg/trash-5bgfl-sac35/dataset/1
